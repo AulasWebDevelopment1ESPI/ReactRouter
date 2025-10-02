@@ -4,6 +4,7 @@ import Menu from './components/Menu';  // Importando o componente Menu
 import Home from './pages/Home';  // Página Home
 import Sobre from './pages/Sobre';  // Página Sobre
 import Contato from './pages/Contato';  // Página Contato
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -34,9 +35,12 @@ function App() {
             <Route path="/contato" element={<Contato />} />
           </Routes>
         </div>
+        <Footer/>
       </div>
     </Router>
+    
   );
+
 }
 {/* 
 Fluxo de navegação:
@@ -50,5 +54,6 @@ algum dos caminhos definidos nas rotas.
 Se uma rota corresponder, o componente associado àquela rota será renderizado na área 
 especificada no código (dentro do <div className="max-w-4xl mx-auto">). 
 */}
+
 
 export default App;
