@@ -1,5 +1,6 @@
 # React Router - Navegação Simples com Vite
-
+### Projeto do professor Lucas Silva Borges de Sousa
+### FIAP
 ## Objetivo da Aula
 
 Aprender a criar navegação entre páginas em React usando React Router de forma simples e prática.
